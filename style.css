@@ -21,6 +21,10 @@ header {
     align-items: center;
 }
 
+header span {
+margin-left:1.5%;
+}
+
 .profilepic{
     width: 10%;
     margin-left: 35%;
