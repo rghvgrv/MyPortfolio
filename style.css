@@ -44,14 +44,12 @@ nav a {
 nav a:hover {
     cursor: pointer;
     color: white;
+    font-size: 20px;
 }
 
 nav a:active {
     color: blue;
 }
-
-
-
 
 .about {
     text-align: center;
@@ -67,13 +65,13 @@ nav a:active {
 }
 
 
-#t02 {
+#t01{
     border-collapse: collapse;
     width: 50%;
 }
 
 
-#t02 th {
+#t01 th {
     text-align: center;
     border: 2px solid;
     border-collapse: collapse;
@@ -83,7 +81,7 @@ nav a:active {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#t02 td {
+#t01 td {
     text-align: center;
     border: 2px solid;
     border-collapse: collapse;
@@ -106,6 +104,7 @@ ul {
     vertical-align:middle;
     float: right;
     align-items: center;
+    margin-top: 20vh;
 }
 
 .project {
@@ -117,6 +116,12 @@ ul {
 .project a{
     text-decoration:none;
     color: black;
+}
+
+.project a:hover{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.404);
+
 }
 
 .project h2 {
@@ -131,94 +136,48 @@ li {
     text-align: start;
 }
 
+.skill{
+    padding: 1%;
+}
+
 .skill img{
     padding: 3%;
     height: 10%;
     width: 20%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 
 .skill h2 {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.skilltable{
+    display: flex;
+    justify-content:space-evenly;
 }
 
 
-
-
-#t01 {
+#t02, #t03 , #t04 ,#t05{
     text-align: center;
     border-collapse: collapse;
     border: 2px solid black;
-    width: 25%;
+    width: 200px;
     margin-bottom: 2%;
+    padding: 2%;
+    height: 20vh;
 }
 
-#t01 th {
+#t02 th, #t03 th , #t04 th, #t05 th{
     border: 2px solid black;
     padding: 2%;
     background-color: burlywood;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#t01 tr {
-    border-collapse: collapse;
-}
-
-#t03 {
-    text-align: center;
-    border-collapse: collapse;
-    border: 2px solid black;
-    width: 25%;
-    margin-bottom: 2%;
-}
-
-#t03 th {
-    border: 2px solid black;
-    padding: 2%;
-    background-color: burlywood;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#t03 tr {
-    border-collapse: collapse;
-}
-
-
-#t04 {
-    text-align: center;
-    border-collapse: collapse;
-    border: 2px solid black;
-    width: 25%;
-    margin-bottom: 2%;
-}
-
-#t04 th {
-    border: 2px solid black;
-    padding: 2%;
-    background-color: burlywood;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#t04 tr {
-    border-collapse: collapse;
-}
-
-#t05 {
-    text-align: center;
-    border-collapse: collapse;
-    border: 2px solid black;
-    width: 25%;
-    margin-bottom: 2%;
-}
-
-#t05 th {
-    border: 2px solid black;
-    padding: 2%;
-    background-color: burlywood;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#t05 tr {
+#t02 tr ,#t03 tr , #t04 tr, #t05 tr{
     border-collapse: collapse;
 }
 
